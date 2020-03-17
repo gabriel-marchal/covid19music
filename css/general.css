@@ -1,0 +1,13 @@
+body {
+    background-image: url('../assets/virus.jpg');
+    margin: auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 80% 20%;
+    margin-right: 15%;
+    margin-left: 7%;
+    margin-top: 5%;
+    height: 100%;
+}
