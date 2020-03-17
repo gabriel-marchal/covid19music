@@ -1,6 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url('../assets/virus.jpg');
-    margin: auto;
+    /*margin: auto;*/
     font-family: 'Source Code Pro', monospace;
 }
 
@@ -14,11 +18,32 @@ h1 {
 
 .spotifycontainer {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    object-fit: cover;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
     margin-left: 7%;
     margin-top: 5%;
     grid-gap: 10px;
+}
+
+.col-1 {
+    width: 100%;
+}
+
+.col-2 {
+    width: 100%;
+}
+
+.col-3 {
+    width: 100%;
+}
+
+[class*="col-"] {
+    float: left;
+}
+
+.spotifycontainer::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .videocontainer {
