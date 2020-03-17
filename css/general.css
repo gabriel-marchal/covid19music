@@ -1,13 +1,27 @@
 body {
     background-image: url('../assets/virus.jpg');
     margin: auto;
+    font-family: 'Source Code Pro', monospace;
 }
 
-.container {
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto 20px auto;
+    color: rgb(56, 250, 8);
+}
+
+.spotifycontainer {
     display: grid;
-    grid-template-columns: 80% 20%;
-    margin-right: 15%;
+    grid-template-columns: repeat(3, 1fr);
+    object-fit: cover;
     margin-left: 7%;
     margin-top: 5%;
-    height: 100%;
+    grid-gap: 10px;
+}
+
+.videocontainer {
+    margin: auto;
+    text-align: center;
 }
