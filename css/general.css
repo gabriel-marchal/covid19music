@@ -8,6 +8,29 @@ body {
     font-family: 'Source Code Pro', monospace;
 }
 
+a {
+    font-size: 20px;
+    vertical-align: middle;
+    gap: auto;
+}
+
+.header_resources {
+    position: static;
+    background-color: white !important;
+    height: auto;
+    width: 100%;
+    padding-left: auto;
+}
+
+#who_img {
+    margin-left: 10px;
+}
+
+#cdc_img {
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
 h1 {
     font-size: 30px;
     font-weight: bold;
@@ -49,4 +72,8 @@ h1 {
 .videocontainer {
     margin: auto;
     text-align: center;
+}
+
+footer {
+    height: 50px;
 }
