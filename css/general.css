@@ -19,16 +19,20 @@ a {
     background-color: white !important;
     height: auto;
     width: 100%;
-    padding-left: auto;
+    text-align: center;
 }
 
 #who_img {
-    margin-left: 10px;
+    margin-left: auto 40px auto;
 }
 
 #cdc_img {
-    margin-right: 0px;
+    margin: auto 0px auto 40px;
     padding-right: 0px;
+}
+
+#world_img {
+    margin: auto 0px auto 40px;
 }
 
 h1 {
