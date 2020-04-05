@@ -43,6 +43,14 @@ h1 {
     color: rgb(56, 250, 8);
 }
 
+h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto 20px auto;
+    color: white;
+}
+
 .spotifycontainer {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
@@ -80,4 +88,16 @@ h1 {
 
 footer {
     height: 50px;
+}
+
+#forsale {
+    color: white;
+}
+
+#mailto {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 30px auto 20px auto;
+    color: white;
 }
